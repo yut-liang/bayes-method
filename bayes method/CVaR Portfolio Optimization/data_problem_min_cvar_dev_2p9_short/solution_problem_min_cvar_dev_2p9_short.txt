@@ -1,0 +1,16 @@
+Problem: problem_1, solution_status = optimal
+Timing: data_loading_time = 0.20, preprocessing_time = 0.01, solving_time = 0.01
+Variables: optimal_point = point_problem_1
+Objective: objective = 2.073024838666E-02 [0.00000000000]
+Constraint: constraint_1 =  1.000000000000E+00 [ 2.220446049250E-16]
+Constraint: constraint_2 =  2.900000000000E-02 [ 0.000000000000E+00]
+Function: linear(matrix_budget) =  1.000000000000E+00
+Function: linear(matrix_returns) =  2.900000000000E-02
+Function: avg(matrix_scenarios) = -2.899999958069E-02
+Function: var_risk(0.99,matrix_scenarios) =  7.477962631466E-04
+Function: cvar_risk(0.99,matrix_scenarios) =  8.081029577544E-03
+Function: cvar_dev(0.9,matrix_scenarios) =  2.073024838666E-02
+Function: max_risk(matrix_scenarios) =  1.389780238046E-02
+Function: pr_pen(2.26847933967E-03,matrix_scenarios) =  9.244899954728E-03
+Function: st_dev(matrix_scenarios) =  8.929569297329E-03
+Function: variance(matrix_scenarios) =  7.973720783581E-05

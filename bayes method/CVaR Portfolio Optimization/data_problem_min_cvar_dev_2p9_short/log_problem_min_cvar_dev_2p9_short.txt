@@ -1,0 +1,10 @@
+Running solver
+Reading problem formulation
+Asking for data information
+Getting data
+100% of matrix_budget was read
+100% of matrix_returns was read
+Start optimization
+Ext.iteration=9  Objective=0.207302483867E-01  Residual=0.000000000000E+00
+Objective: objective = 2.073024838666E-02 [0.00000000000]
+Solver has normally finished. Solution was saved.

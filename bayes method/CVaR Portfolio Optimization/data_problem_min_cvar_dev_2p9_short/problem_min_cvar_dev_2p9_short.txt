@@ -1,0 +1,16 @@
+minimize
+  cvar_dev(0.90, matrix_scenarios)
+Constraint: == 1
+  linear(matrix_budget)
+Constraint: >= 0.029
+  linear(matrix_returns)
+Box: >= 0
+Value: 
+   avg(matrix_scenarios)
+   var_risk(0.99, matrix_scenarios)
+   cvar_risk(0.99, matrix_scenarios)
+   cvar_dev(0.90, matrix_scenarios)
+   max_risk(matrix_scenarios)
+   pr_pen(2.268479339670E-03,matrix_scenarios)
+   st_dev(matrix_scenarios)
+   variance(matrix_scenarios)

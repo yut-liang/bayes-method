@@ -1,0 +1,5 @@
+problem_findcopula_Case1_05, minimize
+  meanabs_err(matrix_scenarios_05)
+Constraint: = 0
+  linearmulti(matrix_sum)
+Box: >= 0
